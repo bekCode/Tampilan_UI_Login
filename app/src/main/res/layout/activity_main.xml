@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/burung"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@android:dimen/app_icon_size">
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo11" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Email"
+        android:textColor="#090808"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#111213"
+        android:text="LOGIN"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/btn_lupa_pswd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="Lupa Password?"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
